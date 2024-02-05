@@ -1,0 +1,14 @@
+<div class="audio-player-container" id="audioPlayerContainer">
+    <audio autoplay loop>
+        <source src="/image/song.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+</div>
+
+<script>
+    // Your JavaScript for toggling the audio player
+    function toggleAudioPlayer() {
+        var audioPlayerContainer = document.getElementById('audioPlayerContainer');
+        audioPlayerContainer.style.display = (audioPlayerContainer.style.display === 'none') ? 'block' : 'none';
+    }
+</script>

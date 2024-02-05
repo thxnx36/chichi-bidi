@@ -1,0 +1,65 @@
+*{padding: 0; margin:0;}
+
+.cat-image img {
+    padding-top: 150px;
+    max-width: 200px; /* Set the maximum width */
+    height: auto; /* Maintain aspect ratio */
+}
+.cat-image2 img {
+    padding-top: 50px;
+    max-width: 200px; /* Set the maximum width */
+    height: auto; /* Maintain aspect ratio */
+}
+.container {
+    height: 100vh;
+    width: 100vw;
+    color: #3b132a ;
+    background-image: url('./image/wallpaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    text-align: center; ;
+}
+.love {
+    padding-top: 20px;
+}
+.love2 {
+    padding-top: 20px;
+}
+.choice {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.choice a {
+    text-decoration: none;
+}
+
+.choice button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #e00052;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.choice button:hover {
+    background-color: #2980b9;
+}
+.audio-player-container {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
